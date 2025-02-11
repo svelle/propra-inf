@@ -1,4 +1,4 @@
-# How to use the PropPra
+# How to use the ProPra
 
 The target audience of this part of the document is course leads of ProPra courses.
 These use the `author` command for building the course website,
@@ -21,7 +21,7 @@ then the `instructor` command during the course.
    for what the entries mean.
    For the moment, no changes are needed.
    For running an actual course later, make the following changes:
-    - you need to change `instructors` 
+    - you need to change `instructors`
     - you will want to change `title` and `name`
     - perhaps you want to remove some taskgroups; simply delete the respective line
     - if the course will be served by an Apache webserver, adapt `htaccess_template`.  
@@ -49,7 +49,7 @@ Once you understood those, read on below for some content aspects.
 ----------------------
 ----------------------
 
-# How to write tasks for a PropPra
+# How to write tasks for a ProPra
 
 The target audience of this part of the document is ProPra authors, not instructors and not students.
 
@@ -65,14 +65,14 @@ for its structure and have attempted to obey them throughout:
   All tasks are arranged into a simple chapter/taskgroup/task hierarchy.
   All tasks follow the same simple goal/background/instructions/submission section structure.
 - **motivation focus:**
-  "At the door" into each part (landing pages of chapters and taskgroups, goal sections of tasks),
-  we greet students with a very short text that explains why they might be interested in this
+  Landing pages of chapters and taskgroups, goal sections of tasks
+  greet students with a very short text that explains why they might be interested in this
   material.
 - **all audiences:**
   We have tasks at different levels of difficulty.
   Most are aimed at "average" students, but others cater for stronger ones or very weak ones.
 - **fine granularity:**
-  Our tasks are small, most in the 0.5...1.5 hour range, with a 4 hours maximum.
+  Our tasks are small, most in the 1.0...1.5 hour range (smaller if needed), with a 4 hours maximum.
 - **heavy cross referencing:**
   Our tasks cross-reference each other a lot to show their interconnectedness and to support
   the fine granularity. 
@@ -118,9 +118,9 @@ software engineering course, but some of them may do this earlier, later, or nev
 
 ## Learning to write ProPra tasks
 
-### 1. Learn Sedrila
+### 1. Learn `sedrila`
 
-First, learn about sedrila in the
+First, learn about `sedrila` in the
 [README.md](https://github.com/fubinf/sedrila/blob/main/README.md) and
 [authors.md](https://github.com/fubinf/sedrila/blob/main/doc/authors.md) parts of its documentation.
 
@@ -200,6 +200,7 @@ Suggested procedure:
    in particular the section subtypes,
    and formulating the learning goal.
 4. Draft the background (keep it short), instructions, and submission sections.
+   Background is for motivation only, not for delivering required information. 
 5. Have someone else review the description for coherence between goal and instructions/submission
    and for appropriateness of the instructions given the difficulty.
 
